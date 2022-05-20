@@ -24,9 +24,6 @@ def download_thread(link):
         series_name = series_name.replace(":","")
         os.makedirs(f'{series_name}/Season {season}', exist_ok=True)
         time.sleep(13)
-        if driver.current_url.replace("www.","").replace("https://","").replace("http://","").replace("/","") == "sdarot.tv":
-            open("skipped_urls.txt","a").write(link+"\n")
-            return
         while True:
             time.sleep(6)
             try:
