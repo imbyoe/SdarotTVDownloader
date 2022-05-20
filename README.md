@@ -1,2 +1,3 @@
 # SdarotTVDownloader
 download sdarot.tv seasons using selenium and Python.
+add your webdriver.exe into the code folder, follow the prompts and bam! it's really recommended to using a vpn with a rotating IP feature like SurfShark or you're going to get rate limited...
